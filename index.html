@@ -1,13 +1,74 @@
-    <Html>    
-    <Head>  
-    <title>  
-    Example of anchor or hyperlink  
-    </title>  
-    </Head>  
-    <Body>   
-    <!-- In this example we use the anchor tag for linking one page to another by using the href attribute   
-    which specify the url of the second page which you want to link.-->    
-    <center> Click on <a href="https://www.javatpoint.com/html-favicon"> this link </a> for reading about HTML favicon in JavaTpoint.   
-    </center>  
-    </Body>  
-    </Html>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .red-text {
+            color: #ff0000;
+        }
+
+        .green-text {
+            color: #00ff00;
+        }
+
+        .blue-text {
+            color: #0000ff;
+        }
+
+        .yellow-background {
+            background-color: #ffff00;
+        }
+
+        .purple-background {
+            background-color: #800080;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Colored Page</h1>
+</header>
+
+<section>
+    <h2>Text with Colors</h2>
+    <p>This is a <span class="red-text">red</span> text. This is a <span class="green-text">green</span> text. This is a <span class="blue-text">blue</span> text.</p>
+</section>
+
+<section class="yellow-background">
+    <h2>Section with Yellow Background</h2>
+    <p>This section has a yellow background.</p>
+</section>
+
+<section class="purple-background">
+    <h2>Section with Purple Background</h2>
+    <p>This section has a purple background.</p>
+</section>
+
+</body>
+</html>
